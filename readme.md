@@ -55,6 +55,7 @@ SELECT * FROM systools.pg_tcpcheck('10.0.0.1:5432, 10.0.0.2:80, 8.8.8.8');
 SELECT * FROM systools.pg_tcpcheck(
     p_log_level => 'error',      -- No muestra advertencias de IPs mal escritas
     p_timeout   => 5,            -- Espera 5 segundos
+    p_default_port => 5432,      -- Esto solo para la IP que no se especifica puerto
     p_targets   => '1.1.1.1, 8.8.8.8:53'
 );
 
