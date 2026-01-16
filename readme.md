@@ -1,6 +1,6 @@
 # pg_tcpcheck 🐘🛡️
 
-**pg_tcpcheck** es una herramienta profesional de diagnóstico de red diseñada para ejecutarse directamente desde PostgreSQL. Permite verificar la disponibilidad de servicios TCP (puertos) en servidores remotos de forma masiva, segura y eficiente.
+**pg_tcpcheck** es una funcion de diagnóstico de red diseñada para ejecutarse directamente desde PostgreSQL. Permite verificar la disponibilidad de servicios TCP (puertos) en servidores remotos de forma masiva, segura y eficiente.
 
 ---
 
