@@ -7,12 +7,6 @@
 ## 🚀 Características Principales
 
 * **Escaneo Masivo:** Soporta múltiples objetivos en una sola cadena (ej. `'10.0.0.1, 192.168.1.50:8080'`).
-* **Seguridad Blindada:** * **Validación INET:** Protección nativa contra inyección de comandos shell.
-* **Search Path Hardening:** Previene ataques de secuestro de esquemas.
-* **Privilegios Controlados:** Ejecución vía `SECURITY DEFINER` con acceso restringido.
-
-
-* **Verbocidad Dinámica:** Controla el nivel de logs (`NOTICE`, `DEBUG`, `ERROR`) mediante parámetros.
 * **Sintaxis Flexible:** Compatible con notación por nombre de PostgreSQL (el orden de los parámetros no importa).
 
 ---
